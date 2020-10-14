@@ -1,0 +1,97 @@
+using System;
+
+
+namespace lab1
+{
+    class Program
+    {
+        
+        
+
+        static void Main(string[] args)
+        {
+            { Console.WriteLine("hello");
+                Console.WriteLine("hridita");
+            }
+
+
+            {
+                int x = 5;
+                int y = 6;
+                int sum = x + y;
+                Console.WriteLine(sum);
+            }
+
+            {
+
+                int x = 10;
+                int y = 2;
+                int div = x / y;
+                Console.WriteLine(div);
+
+
+            }
+            {
+
+                int x = 5;
+                int y = 8;
+                int z = 6;
+                int cal = -x + y * z;
+                Console.WriteLine(cal);
+            }
+            { 
+                int x = 55;
+                int y = 9;
+               
+                int cal = (x+y) % y;
+                Console.WriteLine(cal);
+
+
+            }
+            {
+               
+
+                int cal = 20 + -3 * 5 / 8;
+                Console.WriteLine(cal);
+            }
+            {
+                int cal = 5 + 15 / 3 * 2 - 8 % 3;
+                Console.WriteLine(cal);
+            }
+            {
+                int x = 12;
+                int y = 2;
+                int sum = x + y;
+                int sub = x - y;
+                int mul = x * y;
+                int div = x / y;
+                int ri = x % y;
+                Console.WriteLine(sum);
+                Console.WriteLine(sub);
+                Console.WriteLine(mul);
+                Console.WriteLine(div);
+                Console.WriteLine(ri);
+
+
+            }
+            {
+
+                double cal = ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+                Console.WriteLine(cal);
+
+            }
+
+            {
+                
+         
+           
+            double width = 5.5;
+                double height = 8.5;
+                double area = width * height;
+                double perimeter = 2 * (width + height);
+                Console.WriteLine("Area is " + width + "*" + height + " = " + area);
+                Console.WriteLine("Perimeter is 2 * (" + width + "+" + height + ") = " + perimeter);
+            }
+
+
+
